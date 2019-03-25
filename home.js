@@ -1,5 +1,6 @@
 function onClientLoad() {
     gapi.client.load('youtube', 'v3', onYouTubeApiLoad);
+    load_menu();
 }
   
   // Called automatically when YouTube API interface is loaded (see line 9).
